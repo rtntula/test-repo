@@ -3,6 +3,9 @@
 	> /.vim/plugged/vimwiki/doc
 	> line_965
 
+## Initial Settings
+	- [vimrc](vimrc.md)
+
 ## Some Mappings
 	- [Normal Mode](map-norm.md)
 	- [Insert Mode](map-ins.md)
@@ -12,3 +15,15 @@
 
 ## Links
 	- [Anchors](anchors.md)
+
+---
+# Полезные команды
+
+## cp
+
+```
+~/git/test-repo/
+$ cp -ru ~/vimwiki .
+```
+
+> Копирует только новые и измененные файлы из каталога ~/vimwiki в репозиторий
